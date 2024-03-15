@@ -1,0 +1,81 @@
+/* outfit-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/outfit-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/outfit-v11-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+.card-wrapper {
+  width: 320px;
+  height: 497px;
+  box-shadow: 0px 25px 25px 0px #0000000c;
+  background-color: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.card-img {
+  padding: 64px;
+}
+.card-title {
+  width: 288px;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #1f314f;
+}
+.card-text {
+  width: 256px;
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.1875px;
+  text-align: center;
+  color: #7d889e;
+  align-items: center;
+}
+.img-container {
+  border-radius: 10px;
+  background-color: #3685ff;
+  width: 288px;
+  height: 288px;
+  margin-bottom: 24px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 40px;
+  padding-right: 16px;
+}
+body {
+  background: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: 'Outfit';
+}
